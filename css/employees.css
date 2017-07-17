@@ -1,0 +1,17 @@
+#employees {
+    height: 105px;
+    background-color: #eee;
+    white-space: nowrap;
+    width: 100%;
+    display: table;
+}
+
+.employee-photo {
+    vertical-align: middle;
+    padding: 13px;
+    display: table-cell;
+}
+
+.employee-photo {
+    max-width: 100%;
+}
