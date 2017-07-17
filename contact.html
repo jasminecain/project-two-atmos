@@ -5,11 +5,12 @@
 
     <title></title>
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/contact.css">
 
   </head>
 
 
-
+  
   <body>
 
   <div class="socialbar">
@@ -39,23 +40,39 @@
 		</nav>
 	</header>
 
-	<main>
+	<main class="contact-main">
+	<h1>Contact Us</h1>
 
-    <h2>About</h2>
-      <p>Atmos provides the building blocks for innovation. We develop products for the home user and perform dedicated engineering services for companies such as Harris, Inc., StrionAir, and United Technologies, Inc.</p>
+		<div class="contact-info">
 
-      <p>Based in Ithaca, New York, Atmos aims to inspire and empower, making technological tools available to current and future inventors. Our customer is the tech enthusiast, the entrepreneur, and the business in need of sensor based electrical engineering.</p>
+		<p class="bold">ATMOS</p>
+			<p>1234 Anywhere Street<br>
+			Anywhere, TN 123456<br>
+			Tel: (615) 555-5555 ext. 55555<br><br>
 
-    <h2>Retailers</h2>
-      <img src="/images/MCMLogo.jpg">
-      <img src="/images/Micro.jpg">
-      <img src="/images/maker-shed-logo.png">
 
-    <h2>Clients</h2>
-      <p>Harris, Inc.</p>
-      <p>Carrier, Inc.</p>
-      <p>StrionAir</p>
-      <p>United Technologies, Inc.</p>
+		</div>
+
+		<div class="contactForm">
+				<form>
+				<fieldset>
+				    <legend>Tell Us About You</legend>
+				  <input type="text" name="firstname" placeholder="First Name (REQUIRED)" required><br>
+				  <br>
+				  <input type="text" name="lastname" placeholder="Last Name"><br>
+				  <br>
+				  <input type="email" name="email" placeholder="E-mail (REQUIRED)" required><br>
+				 <br>
+				    <textarea name="message" rows="10" cols="80" placeholder="Your Message"></textarea><br>
+
+				</fieldset>
+
+			    <input type="submit" value="Send Your Message"><input type="reset">
+
+			</form>
+
+
+		</div>
 
 	</main>
   </body>
