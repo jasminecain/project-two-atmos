@@ -1,12 +1,55 @@
+#home-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 .heroImage img{
   width: 60%;
   margin-left:-8px;
   float: right;
 }
 
+#home-sfeer {
+  color: white;
+  text-align: center;
+  margin-top: -70px;
+  margin-left: 92px;
+}
+
+#home-sfeer img {
+  width: 475px;
+  padding-bottom: 30px;
+}
+
+#home-map {
+  margin-right: 170px;
+}
+
+#home-map img {
+  width: 525px;
+}
+
+h1 {
+  color: #ED412D;
+  background-color: white;
+  width: 50%;
+  margin: -15px;
+  margin-left: 25%;
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: -8px;
+  text-transform: uppercase;
+/*  padding-bottom: 10px;*/
+}
+
+
+/* .sfeer causes the h3 to go up under rommap*
+
 .sfeer {
   float: left;
-}
+}*/
 
 /*.heroImage {
   margin: 0 auto;
