@@ -7,7 +7,7 @@ Blue: #5DBCD2
 
 Links
 Green: #51AE66
-Red Orange: #*/
+Red Orange: #ED412D*/
 
 body{
 	font-family: "Open Sans";
@@ -22,6 +22,11 @@ main{
 
 h1, h2, h3{
 	font-family: "Open Sans";
+
+}
+
+h1{
+	text-align: center;
 }
 
 
@@ -31,7 +36,7 @@ header{
 	width: 100%;
 	margin-left: -10px;
 	padding-right: 20px;
-	height: 100%;
+	height: 80%;
 }
 
 .socialbar{
@@ -64,9 +69,9 @@ header{
 	margin: 2px;
 }
 
-	.icon{
-		background-color: #FFF;
-	}
+.social-nav img{
+	width: 25px;
+}
 
 nav{
 /*	background-color:#5DBCD2;*/
@@ -84,6 +89,12 @@ nav{
   display: -webkit-flex;
   display: flex;
 
+}
+
+.main-nav img{
+	width: 190px;
+	margin-top: -100px;
+	margin-left: 50px;
 }
 
 ul.main-nav {
@@ -108,7 +119,7 @@ ul.main-nav {
 }
 
 .main-nav li a:hover{
-	color: #ED412D;
+	color: #FDE948;
 }
 
 /*ul.main-nav li.here>a{
@@ -127,10 +138,7 @@ li.none a:hover{
 	background-color: #BBCDB3;
 }
 
-.main-nav img{
-	width: 100px;
-	margin-top: -30px;
-}
+
 
 
 footer{
