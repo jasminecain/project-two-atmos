@@ -119,6 +119,8 @@ footer{
 }
 
 footer img{
+	 display: block;
+	 float: right;
 	 width:150px;
 	 padding-top: 20px; 
 }
