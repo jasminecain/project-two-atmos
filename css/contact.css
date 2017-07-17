@@ -2,7 +2,7 @@
 .contact-main{
 	width: 90%;
 	margin: 0 auto;
-    height: 100%;
+
 
 }
 
@@ -25,6 +25,7 @@
 
 .contactForm{
     padding-top: 30px;
+    padding-bottom: 70px;
 
 }
 
@@ -86,20 +87,22 @@
 {
     position: relative;
     display: block;
-    padding: 19px 39px 18px 39px;
+    float: right;
     color: #FFF;
     margin: 0 auto;
     font-size: 18px;
     text-align: center;
     font-style: normal;
-    width: 100%;
     border-width: 1px 1px 3px;
     margin-bottom: 10px;
-    border-radius: 10px;
+    padding: 10px 20px;
+    width: 30%;
+    margin-right: 50px;
+
 }
 
 .contactForm input[type="submit"]{
-	background: #0159A0;
+	background: #51AE66;
 	border: 1px solid #17ADD9;
 
 }
@@ -112,8 +115,8 @@
 .contactForm input[type="submit"]:hover,
 .contactForm input[type="reset"]:hover
 {
-    background: #BBCDB3;
-    color: #B95041;
+    background: #5DBCD2;
+    color: #FFF;
 }
 
 /* -- Form Validation --*/
