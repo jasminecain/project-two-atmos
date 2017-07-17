@@ -7,7 +7,7 @@ Blue: #5DBCD2
 
 Links
 Green: #51AE66
-Red Orange: #ED412D*/
+Red Orange: #*/
 
 body{
 	font-family: "Open Sans";
@@ -16,6 +16,8 @@ body{
 main{
 	width: 90%;
 	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 h1, h2, h3{
@@ -123,6 +125,11 @@ li.none a{
 li.none a:hover{
 	margin: 0;
 	background-color: #BBCDB3;
+}
+
+.main-nav img{
+	width: 100px;
+	margin-top: -30px;
 }
 
 

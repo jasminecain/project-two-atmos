@@ -1,0 +1,67 @@
+#jobList{
+	display: flex;
+	justify-content: space-around;
+	  flex-direction: row;
+	   flex-wrap: wrap;
+	   margin-bottom: 35px;
+}
+
+.card{
+	width: 80%;
+	border: none;
+	padding: 20px;
+	margin-top: 55px;
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+.card h2{
+	font-size: 1.5em;
+}
+
+.card h3{
+	font-size: .75em;
+}
+
+.pay{
+	font-weight: bold;
+	color: #ED412D;
+	font-size: 1em;
+}
+
+/*.card img{
+	width: 100%;
+}*/
+
+.card button{
+	position: relative;
+    display: block;
+    float: left;
+    background-color: #51AE66;
+    padding: 10px 20px;
+    color: #FFF;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    width: 30%;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-top: 15px;
+	cursor: pointer;
+
+}
+
+.card button a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.card button:hover a{
+    color: #FFF;
+}
+
+.card button:hover{
+    background: #ED412D;
+    color: #FFF;
+}

@@ -1,0 +1,29 @@
+#employees {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+/*    display: flex;*/
+}
+
+.employee-photo img{
+	margin: 0 auto;
+    padding: 13px;
+    display: table-cell;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.employee-photo {
+	background-color: #eee;
+	text-align: center;
+	width: 70%;
+	padding:20px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 20px;
+/*	flex-grow: 6;
+	flex-wrap: wrap;*/
+	
+
+}
