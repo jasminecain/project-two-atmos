@@ -4,21 +4,22 @@
 }
 
 .heroImage img{
-  width: 60%;
-  margin-left:-8px;
   float: right;
+  margin-left:-8px;
+  width: 60%;
 }
 
 #home-sfeer {
   color: white;
   text-align: center;
-  margin-top: -70px;
+ /* margin-top: -70px;*/
   margin-left: 92px;
 }
 
 #home-sfeer img {
-  width: 475px;
+  height:
   padding-bottom: 30px;
+  width: 480px;
 }
 
 #home-map {
@@ -30,17 +31,20 @@
 }
 
 h1 {
+/*  color: #FFF;*/
   color: #ED412D;
   background-color: white;
-  width: 50%;
   margin: -15px;
   margin-left: 25%;
   text-transform: uppercase;
+/*  text-shadow: 2px 2px #A9A9A9;*/
+  width: 50%;
 }
 
 p {
   margin-bottom: -8px;
   text-transform: uppercase;
+/*  text-shadow: 2px 2px #A9A9A9;*/
 /*  padding-bottom: 10px;*/
 }
 
