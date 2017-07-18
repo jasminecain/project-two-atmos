@@ -1,5 +1,5 @@
 #employees {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 20px;
 /*    display: flex;*/
@@ -17,13 +17,30 @@
 .employee-photo {
 	background-color: #F5F5F5;
 	text-align: center;
-	width: 70%;
+	width: 25%;
 	padding:20px;
 	border-radius: 10px;
 	margin: 0 auto;
-	margin-top: 20px;
-/*	flex-grow: 6;
+	margin: 20px;
+	float: left;
+	margin-bottom: 40px;
+
+
+/*	flex-grow: 3;
 	flex-wrap: wrap;*/
 	
 
+}
+
+.empsocial{
+	display: flex;
+	width: 20%;
+	text-align: center;
+	align-items: center;
+
+
+}
+
+.learnmore{
+	margin-top: 50px;
 }
