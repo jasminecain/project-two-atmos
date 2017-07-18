@@ -16,8 +16,8 @@ body{
 main{
 	width: 90%;
 	margin: 0 auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-bottom: 40px;
+	padding-top: 20px;
 }
 
 h1, h2, h3{
@@ -35,13 +35,14 @@ header{
 	background-image: url('../images/homepage-img.png');
 	width: 100%;
 	margin-left: -10px;
+/*	margin-top: -20px;*/
 	padding-right: 20px;
 	height: 80%;
 }
 
 .socialbar{
 	background-color:#000;
-	margin-top:-8px;
+	margin-top:-15px;
 	margin-left: -10px;
 	padding-right: 20px;
 	width: 100%;
@@ -143,6 +144,7 @@ li.none a:hover{
 footer{
 	position: absolute;
 	width: 100%;
+	margin-top: -15px;
 	font-size: .75em;
 	text-align: left;
 	font-family: "Open Sans";
@@ -159,7 +161,7 @@ footer img{
 	 padding-bottom: 10px;
 	 padding-right: 20px;
 	 margin-top: -15px;
-	  
+
 }
 
 
