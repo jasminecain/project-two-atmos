@@ -3,6 +3,7 @@
     margin: 0 auto;
     margin-top: 20px;
 /*    display: flex;*/
+height: 850px;
 }
 
 .employee-photo img{
@@ -26,9 +27,10 @@
 	margin-bottom: 40px;
 
 
+
 /*	flex-grow: 3;
 	flex-wrap: wrap;*/
-	
+
 
 }
 
