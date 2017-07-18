@@ -6,6 +6,7 @@
     <title></title>
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/homepage.css">
+        <link rel="stylesheet" type="text/css" href="css/lightbox.css">
   </head>
 
 
@@ -27,12 +28,12 @@
 
 					<ul class="main-nav">
 					<li><a href="index.html"><img src="images/atmos.png" alt=""></a></li>
-					<li><a href="index.html">Home</a></li>
+					<li class="here"><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="jobs.html">Work With Us</a></li>
 					<li><a href="products.html">Products</a></li>
 					<li><a href="employees.html">Our Team</a></li>
-					<li><a href="#">Contact Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
 
 					</ul>
 
@@ -49,9 +50,14 @@
     </a>
   </div>
   <div id="home-map">
-      <a href="products.html">
-        <img class="map" src="images/roommap.jpg" alt="Splash Image">
+      <a href="#video">
+        <img class="lightbox" class="map" src="images/roommap.jpg" alt="Splash Image">
       </a>
+
+      <div class="lightbox-target" id="video">
+   <div class="iframe"><iframe width="853" height="480" src="https://www.youtube.com/embed/Re9FQylporQ?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe></div>
+   <a class="lightbox-close" href="#"></a>
+</div>
   </div>
 </div>
 

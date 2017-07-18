@@ -5,6 +5,7 @@
 
     <title></title>
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/contact.css">
 
   </head>
 
@@ -27,21 +28,51 @@
 
 				<ul class="main-nav">
 					<li><a href="index.html"><img src="images/atmos.png" alt=""></a></li>
-					<li class="here"><a href="index.html">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="jobs.html">Work With Us</a></li>
 					<li><a href="products.html">Products</a></li>
 					<li><a href="employees.html">Our Team</a></li>
-					<li><a href="contact.html">Contact Us</a></li>
+					<li class="here"><a href="contact.html">Contact Us</a></li>
 
 					</ul>
 
 		</nav>
 	</header>
 
-	<main>
+	<main class="contact-main">
+	<h1>Contact Us</h1>
 
-<p>THis is some test</p>
+		<div class="contact-info">
+
+		<p class="bold">ATMOS</p>
+			<p>1234 Anywhere Street<br>
+			Anywhere, TN 123456<br>
+			Tel: (615) 555-5555 ext. 55555<br><br>
+
+
+		</div>
+
+		<div class="contactForm">
+				<form>
+				<fieldset>
+				    <legend>Tell Us About You</legend>
+				  <input type="text" name="firstname" placeholder="First Name (REQUIRED)" required><br>
+				  <br>
+				  <input type="text" name="lastname" placeholder="Last Name"><br>
+				  <br>
+				  <input type="email" name="email" placeholder="E-mail (REQUIRED)" required><br>
+				 <br>
+				    <textarea name="message" rows="10" cols="80" placeholder="Your Message"></textarea><br>
+
+				</fieldset>
+
+			    <input type="submit" value="Send Your Message"><input type="reset">
+
+			</form>
+
+
+		</div>
 
 	</main>
   </body>
